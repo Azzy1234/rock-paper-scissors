@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#result {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.choice:hover {
+    background-color: #2980b9;
+}
+
+#scoreboard {
+    font-size: 1.2rem;
+}
